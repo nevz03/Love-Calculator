@@ -1,0 +1,53 @@
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+lower_case_name = name1.lower()
+letter1 = lower_case_name.count("t")
+letter2 = lower_case_name.count("r")
+letter3 = lower_case_name.count("u")
+letter4 = lower_case_name.count("e")
+
+lower_case_name2 = name2.lower()
+letter5 = lower_case_name2.count("t")
+letter6 = lower_case_name2.count("r")
+letter7 = lower_case_name2.count("u")
+letter8 = lower_case_name2.count("e")
+
+
+sum = letter1 + letter2 + letter3 + letter4 + letter5 + letter6 + letter7 + letter8
+
+lower_case_name = name1.lower()
+
+letter9 = lower_case_name.count("l")
+letter10 = lower_case_name.count("o")
+letter11 = lower_case_name.count("v")
+letter12 = lower_case_name.count("e")
+
+
+lower_case_name2 = name2.lower()
+
+letter13 = lower_case_name2.count("l")
+letter14 = lower_case_name2.count("o")
+letter15 = lower_case_name2.count("v")
+letter16 = lower_case_name2.count("e")
+
+sum2 = letter9 + letter10 + letter11 + letter12 + letter13 + letter14 + letter15 + letter16
+
+love_score = int(str(sum) + str(sum2))
+
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif love_score >= 40 and love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together. ")
+else:
+    print(f"Your score is {love_score}.")
+
+
+
+
+
